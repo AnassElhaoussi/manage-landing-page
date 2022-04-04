@@ -8,8 +8,9 @@ html {
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
+
 
 
 * {
@@ -106,4 +107,68 @@ body {
 .illustration-intro {
     position: relative;
     top: -10%;
+}
+
+
+.about {
+    display: flex;
+    margin: 4rem 0 0 13rem;
+}
+
+.ab-title {
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    width: 70%;
+    opacity: 0.9;
+}
+
+.ab-paragraph {
+    font-size: 1.5rem;
+    opacity: 0.6;
+    width: 50%;
+    line-height: 2.1rem;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.field-head {
+    display: flex;
+}
+
+.number {
+    margin-right: 5rem;
+    background-color: hsl(12, 88%, 59%);
+    padding: 0.5rem 2rem;
+    border-radius: 3rem;
+    color: white;
+    font-weight: 600;
+}
+
+.field-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.field-p {
+    margin-left: 10.5rem;
+    margin-top: 0.5rem;
+    width: 50%;
+    line-height: 1.8rem;
+    opacity: 0.7;
+    
+    
+}
+
+
+.about svg {
+    position: absolute;
+    z-index: -100;
+    left: -40%;
+    margin-top: 20%;
 }
