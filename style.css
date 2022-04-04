@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=League+Gothic&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&family=Staatliches&display=swap');
+
+
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    overflow: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    z-index: 999;
+}
+
+.links a{
+    margin-right: 3rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+}
+
+.nav-button {
+    text-decoration: none;
+    background-color: hsl(12, 88%, 59%);
+    padding: 1rem 2.3rem;
+    border-radius: 3rem;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px hsl(12, 88%, 59%);
+    transition: 0.8s ease-in-out;
+}
+
+.nav-button:hover {
+    transform: scale(1.1);
+}
+
+
+.main-section {
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 13rem;
+    
+
+}
+
+.main-text h1,p,a{
+    margin-bottom: 3.5rem;
+    
+    
+}
+
+.main-title {
+    font-size: 5rem;
+    width: 70%;
+    opacity: 0.8;
+}
+
+.main-paragraph {
+    font-size: 1.4rem;
+    width: 45%;
+    opacity: 0.6;
+    line-height: 2.2rem;
+}
+
+
+.main-button {
+    text-decoration: none;
+    background-color: hsl(12, 88%, 59%);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+}
+
+
+.main-button:hover {
+    padding: 1rem 2.5rem;
+}
+
+
+.bg-tablet svg {
+    position: absolute;
+    right: -18%;
+    top: -30%;
+    z-index: -1;
+}
+
+.illustration-intro {
+    position: relative;
+    top: -10%;
+}
