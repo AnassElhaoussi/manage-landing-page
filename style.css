@@ -28,6 +28,11 @@ body {
     z-index: 999;
 }
 
+.navigation img {
+    width: 10%;
+    height: 10%;
+}
+
 .links a{
     margin-right: 3rem;
     text-decoration: none;
@@ -151,7 +156,7 @@ body {
 }
 
 .field-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
@@ -159,8 +164,9 @@ body {
     margin-left: 10.5rem;
     margin-top: 0.5rem;
     width: 50%;
-    line-height: 1.8rem;
+    line-height: 2rem;
     opacity: 0.7;
+    font-size: 1.2rem;
     
     
 }
@@ -171,4 +177,116 @@ body {
     z-index: -100;
     left: -40%;
     margin-top: 20%;
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    text-align: center;
+}
+
+
+.cmnt-title {
+    font-size: 3rem;
+
+    
+}
+
+
+
+.swiper-container {
+    margin: 4rem;
+}
+
+.swiper-wrapper {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 98%);
+    padding: 2rem 12rem 2rem 12rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+
+
+}
+
+
+
+.swiper-slide img {
+    height: auto;
+    width: 15%;
+    position: absolute;
+    top: -20%;
+    
+}
+
+
+.swiper-text {
+    
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.swiper-text h2 {
+    font-size: 1.5rem;
+}
+
+.swiper-text p {
+    font-size: 1.3rem;
+    width: 180%;
+    opacity: 0.6;
+    line-height: 1.9rem;
+
+}
+
+.panel-container {
+    display: flex;
+    align-items: center;
+    background-color: hsl(12, 88%, 59%);
+    position: relative;
+    padding: 8rem;
+
+}
+
+
+.panel-images{
+    position: absolute;
+    opacity: 0.08;
+}
+
+
+
+.svg-2 {
+    transform: translateX(110%);
+   margin-bottom: 120%;
+   overflow: hidden;
+}
+
+.panel-container h1 {
+    font-size: 3.7rem;
+    width: 40%;
+    color: white;
+    opacity: 0.9;
+}
+
+
+.panel-btn {
+    position: absolute;
+    right: 10%;
+    background-color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    color: hsl(12, 88%, 59%);
+    font-weight: 700;
+    border-radius: 3rem;
 }
