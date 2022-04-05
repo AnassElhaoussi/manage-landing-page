@@ -250,43 +250,75 @@ body {
 }
 
 .panel-container {
+    margin-top: 10rem;
     display: flex;
     align-items: center;
     background-color: hsl(12, 88%, 59%);
+    padding: 7rem;
     position: relative;
-    padding: 8rem;
-
+    overflow: hidden;
 }
-
-
-.panel-images{
-    position: absolute;
-    opacity: 0.08;
-}
-
 
 
 .svg-2 {
-    transform: translateX(110%);
-   margin-bottom: 120%;
-   overflow: hidden;
+    width: 25%;
+    opacity: 0.09;
+    position: absolute;
+    right: -10%;
+    top: -60%;
+    
+
 }
 
 .panel-container h1 {
-    font-size: 3.7rem;
-    width: 40%;
+    font-size: 3.5rem;
     color: white;
     opacity: 0.9;
+    width: 80%;
+}
+
+.svg-1 {
+        width: 30%;
+        opacity: 0.09;
+        position: absolute;
+        left: 10%;
+        bottom: -90%;
+        
+        
+
+}
+
+
+.panel-text {
+    display: flex;
+    justify-content: space-around;
 }
 
 
 .panel-btn {
     position: absolute;
-    right: 10%;
+    right: 5%;
     background-color: white;
+    padding:1rem 3rem;
     text-decoration: none;
-    padding: 1rem 3rem;
+    border-radius: 3rem;
     color: hsl(12, 88%, 59%);
     font-weight: 700;
-    border-radius: 3rem;
+    top: 50%;
+    transition: 0.6s ease-in;
+
 }
+
+.panel-btn:hover {
+    padding: 1rem 4rem;
+
+}
+
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    padding: 3rem;
+}
+
+
+
