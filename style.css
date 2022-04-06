@@ -322,13 +322,14 @@ body {
     padding: 4rem 8rem 4rem 8rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
 .icons {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 8rem;
 }
 
 
@@ -368,23 +369,25 @@ body {
     cursor: pointer;
 }
 
-.form input {
+#form input {
     margin-right: 4rem;
     padding: 0.8rem;
     border-radius: 2rem;
     border: none;
+    outline: none;
 
 }
 
 
-.form a {
+.email-btn {
     text-decoration: none;
-    background-color: hsl(12, 88%, 59%);
-    color: white;
-    padding: 1rem 2rem;
     font-size: 1.2rem;
+    background-color: hsl(12, 88%, 59%);
+    padding: 1rem 2rem;
     border-radius: 2rem;
+    color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .copyright {
@@ -394,4 +397,10 @@ body {
     font-size: 1.2rem;
 }
 
+
+#text {
+    display: block;
+    margin: 1rem;
+    font-size: 1.3rem;
+}
 
