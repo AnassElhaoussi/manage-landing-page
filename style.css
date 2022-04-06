@@ -138,6 +138,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
 }
 
 
@@ -315,10 +316,82 @@ body {
 }
 
 
+
 .footer {
-    background-color: rgb(0, 0, 0);
-    padding: 3rem;
+    background-color: hsl(233, 12%, 13%);
+    padding: 4rem 8rem 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
 }
 
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+}
+
+
+.inbox {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    
+    
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons img {
+    width: auto;
+    height: 70%;
+    cursor: pointer;
+}
+
+.footer-links li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.form input {
+    margin-right: 4rem;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    border: none;
+
+}
+
+
+.form a {
+    text-decoration: none;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+.copyright {
+    color: white;
+    opacity: 0.7;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+}
 
 
