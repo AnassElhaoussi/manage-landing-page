@@ -36,18 +36,29 @@
     text.innerHTML = ""
    }
    
- 
- 
 
-
- 
 
  
  }
- 
+
 
  checkEmailValidation()
- 
+
+
+
+const checkActiveButton = () => {
+   const hamburger = document.querySelector(".hamburger")
+   const links = document.querySelector(".links")
+   
+
+   hamburger.addEventListener('click', function(){
+      links.classList.toggle("isactive")
+      links.style.animation = "navAnimation 0.3s ease"
+   })
+}
+
+
+checkActiveButton()
  
 
  
