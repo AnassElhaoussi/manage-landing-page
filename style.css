@@ -202,7 +202,13 @@ body {
 
 .swiper-wrapper {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
+    justify-content: center;
+    animation-name: swiperAnimation;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    
+
 
 }
 
@@ -376,6 +382,7 @@ body {
     border: none;
     outline: none;
 
+
 }
 
 
@@ -388,6 +395,11 @@ body {
     color: white;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.email-btn:hover {
+    padding: 1rem 2.5rem;
 }
 
 .copyright {
@@ -403,4 +415,54 @@ body {
     margin: 1rem;
     font-size: 1.3rem;
 }
+
+@keyframes swiperAnimation {
+
+    from{
+        transform: translate(-40%);
+    }
+
+
+    to {
+        transform: translate(20%);
+    }
+
+        
+
+}
+
+
+@media (max-width:1300px){
+
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .main-title {
+        width: 100%;
+    }
+
+    .main-paragraph {
+        width: 100%;
+
+    }
+
+    .ab-title {
+        width: 100%;
+    }
+
+    .ab-paragraph {
+        width: 80%;
+    }
+    }
+
+
+    
+
+}
+
+
 

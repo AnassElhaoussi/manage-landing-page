@@ -123,7 +123,7 @@
             </div>
           </div>
         
-    
+          
         </div>
         
         
@@ -176,7 +176,7 @@
      </div>
      <div class="inbox">
       <form action="#" id="form">
-        <input type="text" placeholder="Updates in your inbox." id="enter-email" name="enter-email" onkeydown= "checkEmailValidation()">
+        <input type="text" placeholder="Updates in your inbox." id="enter-email" name="enter-email" onkeydown= "checkEmailValidation()" autocomplete="off">
         <label for="email"><a class="email-btn">GO</a></label>
         <span id="text"></span>
       </form>
@@ -197,15 +197,16 @@
 
 
     <script type="text/javascript" >
+
       var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 3,
-        
-        slidesPerGroup: 3,
+        slidesPerView: 3,        
         loopFillGroupWithBlank: true,
+        grabCursor:true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
+        
         
       });
 
